@@ -41,7 +41,8 @@ window.addEventListener("load", () => {
     autoRequestMedia: true,
     debug: false,
     detectSpeakingEvents: true,
-    autoAdjustMic: false
+    autoAdjustMic: false,
+    media: { audio: true, video: false }
   });
 
   // We got access to local camera
